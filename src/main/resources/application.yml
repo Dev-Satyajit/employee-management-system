@@ -1,0 +1,16 @@
+server:
+  port: 8585
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /ems/database
+
+  datasource:
+    url: jdbc:h2:mem:EmsDB
+    username: satya_jit
+    password: 12345
+
+  jpa:
+    open-in-view: false
